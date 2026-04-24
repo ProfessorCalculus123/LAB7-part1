@@ -13,17 +13,27 @@
     
     $index = 0; // Added $ and semicolon
     
-    // Condition needs parentheses and the loop needs curly braces { }
+    echo "<p> The days of the week in English Are: </p> ";
     while ($index <= 6) { 
         echo "<p>$days[$index]</p>";
-        $index += 1; // Added $ and semicolon
+        $index += 1; 
     }
 
-    // Moved print_r outside the loop so it only prints once
-    echo "<h3>Array Debugging:</h3>";
-    echo "<pre>";
-    print_r($days);
-    echo "</pre>";
+        $days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
+    
+    $index = 0; 
+    
+    
+    echo "<p> The days of the week in French Are: </p> ";
+    while ($index <= 6) { 
+        echo "<p>$days[$index]</p>";
+        $index += 1; 
+    }
+
+
+
+
+
 ?>
 
 </body>
